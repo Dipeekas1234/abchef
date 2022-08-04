@@ -32,8 +32,8 @@ public class ItestListenerImtn implements ITestListener{
 		test.log(Status.FAIL, result.getThrowable());
 
 		try {
-			String screenShotName=WebDriverUtility.takeScreenShot(BaseClass.sdriver, result.getMethod().getMethodName());
-			test.addScreenCaptureFromPath(screenShotName);
+			//String screenShotName=WebDriverUtility.takeScreenShot(BaseClass.sdriver, result.getMethod().getMethodName());
+			//test.addScreenCaptureFromPath(screenShotName);
 		} catch (Throwable e) {
 			e.printStackTrace();
 		}
