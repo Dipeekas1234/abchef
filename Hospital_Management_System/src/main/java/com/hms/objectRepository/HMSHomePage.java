@@ -14,6 +14,7 @@ public class HMSHomePage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
 	//declaration
 	
 	@FindBy(xpath = "//a[@href='hms/user-login.php']") private WebElement patientslogin;
