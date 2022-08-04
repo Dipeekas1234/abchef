@@ -22,6 +22,7 @@ public class HMSHomePage {
 	@FindBy(xpath = "//a[@href='hms/admin']") private WebElement adminlogin;
 	
 	//utilization
+	
 	public void getPatientslogin()
 	{
 		patientslogin.click();
