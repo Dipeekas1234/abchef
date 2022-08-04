@@ -1,0 +1,8 @@
+url http://rmgtestingserver/domain/Hospital_Management_System/
+AdminUsername admin
+AdminPassword Test@12345
+PatientUsername test@gmail.com
+PatientPassword Test@123
+DoctorUsername test@demo.com
+DoctorPassword Test@123
+browser chrome
