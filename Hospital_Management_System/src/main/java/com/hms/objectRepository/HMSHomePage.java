@@ -8,8 +8,6 @@ import org.openqa.selenium.support.PageFactory;
 public class HMSHomePage {
 
 	//initialization
-	
-	
 	public HMSHomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
