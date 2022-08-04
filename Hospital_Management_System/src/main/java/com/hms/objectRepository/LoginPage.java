@@ -13,6 +13,7 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
 	//declaration
 	@FindBy(name = "username") private WebElement username;
 	
